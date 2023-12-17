@@ -22,21 +22,29 @@ This project focuses on predicting stress levels using deep learning techniques.
 Stress has become a significant concern in modern life. This project aims to develop a deep learning model capable of predicting stress levels based on various input features.
 
 ## Features
-- Feature 1
-- Feature 2
-- ...
+- The actigraph watch
+- RNNs (Simple RNN, LSTM, GRU)
+- DNN (Dense Neural Network)
 
 ## Dataset
-Describe the dataset used for training and testing the model. Include information about the data sources, format, and any preprocessing steps applied.
+The dataset involves motor activity data from 23 patients diagnosed with depression and 32 control subjects who are healthy. The severity of depression is assessed using the Montgomery-Asberg Depression Rating Scale (MADRS), which assigns levels ranging from 0 to 60. Higher MADRS values indicate more severe depression, with a threshold of 30 representing a severe state, while values 10 suggest a healthy mental state.
+
+We use this dataset to analyze and understand the relationship between motor activity patterns and the severity of depression. By examining the motor activity data alongside MADRS scores, they could identify potential patterns or correlations that may contribute to a better understanding of depression and its manifestations in motor behavior. This information could be valuable for developing diagnostic tools or therapeutic interventions for individuals with depression.
+
+
 
 ## Prerequisites
 - Python
 - TensorFlow
 - NumPy
-- ...
+
 
 ## Installation
-Provide step-by-step instructions to set up and install the required dependencies.
+- TensorFlow
+  `pip install tensorflow`
+
+- Numpy
+  `pip install numpy`
 
 ## Usage
 Explain how to use the model for stress prediction. Include code snippets or examples.

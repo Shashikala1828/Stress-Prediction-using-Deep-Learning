@@ -9,14 +9,8 @@ This project focuses on predicting stress levels using deep learning techniques.
 - [Dataset](#dataset)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Model Architecture](#model-architecture)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Introduction
 Stress has become a significant concern in modern life. This project aims to develop a deep learning model capable of predicting stress levels based on various input features.
@@ -46,26 +40,7 @@ We use this dataset to analyze and understand the relationship between motor act
 - Numpy
   `pip install numpy`
 
-## Usage
-Explain how to use the model for stress prediction. Include code snippets or examples.
-
-## Model Architecture
-Describe the architecture of the deep learning model used for stress prediction. Include details about layers, activations, and any customizations.
-
-## Training
-Provide information on how to train the model. Include details about hyperparameters, training data, and model saving.
-
-## Evaluation
-Explain how to evaluate the model's performance. Include metrics used for assessing stress prediction accuracy.
-
-## Results
-Share insights from the model predictions. Include visualizations or examples to illustrate the stress prediction results.
-
-## Contributing
-Provide guidelines for others who may want to contribute to the project.
 
 ## License
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
-## Acknowledgments
-Mention any credits, inspirations, or references to external resources.
